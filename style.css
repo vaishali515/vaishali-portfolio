@@ -1,19 +1,41 @@
 body{
-background:#0f172a;
-color:#22c55e;
+background:#0b1120;
+color:#00ff9c;
 font-family:monospace;
+margin:0;
+}
+
+.header{
+text-align:center;
 padding:40px;
+border-bottom:1px solid #1f2937;
+}
+
+.header h1{
+margin:0;
+font-size:32px;
+}
+
+.header p{
+color:#9ca3af;
+}
+
+.links a{
+color:#00ff9c;
+margin:10px;
+text-decoration:none;
 }
 
 .terminal{
-max-width:800px;
+max-width:900px;
 margin:auto;
+padding:30px;
 }
 
 input{
 background:none;
 border:none;
-color:#22c55e;
+color:#00ff9c;
 outline:none;
 width:90%;
 font-family:monospace;
